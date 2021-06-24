@@ -41,7 +41,7 @@ img{
 .targa{
     color: white;
     font-size: 10px;
-    padding: 3px;
+    padding: 2px;
     display: inline-block; 
 }
 
@@ -51,4 +51,20 @@ img{
 
 .verde{
     background-color: green;
+}
+
+.marca{
+    font-size: 8px;
+}
+
+.vestito{
+    font-size: 8px;
+}
+
+.prezzo span:first-child{
+    color: red;
+}
+
+.prezzo{
+    font-size: 8px;
 }
