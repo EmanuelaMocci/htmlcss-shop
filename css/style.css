@@ -7,8 +7,10 @@
 .contenitore{
     width: 700px;
     margin: auto;
-    /* border: 1px solid black; */
+}
 
+.contenitore-secondario{
+    display: inline-block;
 }
 
 .rettangolo{
