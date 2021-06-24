@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.contenitore{
+    width: 700px;
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+.rettangolo{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    background-color: blue;
+    position: relative;
+}
+
+
+.cuore{
+  position: absolute;
+  right: 0;
+  background-color: white;
+  margin-top: 10px;
+  width: 30px;
+  padding: 0 5px 5px 5px;
+  text-align: center;
+}
+
+.sconto{
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    padding: 3px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+}
