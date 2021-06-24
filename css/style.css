@@ -7,35 +7,48 @@
 .contenitore{
     width: 700px;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 
 .rettangolo{
     width: 200px;
-    height: 300px;
     display: inline-block;
-    background-color: blue;
     position: relative;
 }
 
+img{
+    width: 100%;
+}
 
 .cuore{
   position: absolute;
   right: 0;
+  top: 0;
   background-color: white;
   margin-top: 10px;
   width: 30px;
   padding: 0 5px 5px 5px;
-  text-align: center;
+  /* text-align: center; */
 }
 
-.sconto{
-    background-color: red;
+.sconto-sostenibile{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+
+.targa{
     color: white;
     font-size: 10px;
     padding: 3px;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 10px;
+    display: inline-block; 
+}
+
+.rosso{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
 }
